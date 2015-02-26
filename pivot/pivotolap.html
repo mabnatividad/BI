@@ -87,7 +87,7 @@
         </div>
     </div>
 
-   <!-- Portfolio Section
+	<!-- Pivot
     ==========================================-->
  <div id="tf-works">
         <div class="container"> <!-- Container -->
@@ -99,10 +99,6 @@
                 <div class="clearfix"></div>
             </div>
             <div class="space"></div>
-			
-			
-			
-
             <div id="lightbox" class="row">
 
                 <div class="col-sm-6 col-md-3 col-lg-3 branding">
@@ -266,10 +262,35 @@
                         </div>
                     </div>
                 </div>
-
-            </div>
+	
+	            </div>
         </div>
     </div>
+	
+   <!-- OLAP
+    ==========================================-->	
+	   <div style = "background-color: #95a5a6;" id = "tf-project" class="text-center">
+	   		<div class = "overlay">
+		        <div class="container project-container" style="padding-top:30px; padding-bottom:25px;">
+		            <div class="section-title center">
+		                <h2><strong>OLAP</strong></h2>
+		                <div class="line">						
+		                </div>     
+<p><small><em>INSTRUCTIONS:</em></small></p>			
+<p><small><em>Please make sure you have the latest Flash Player installed in your browser.</em></small></p>		
+<p><small><em>1) Click the arrow at the top-right hand of the chart to begin trying the pivot table.</em></small></p>		
+<p><small><em>2) Drag and drop fields into the Filter, Row, Column, or Values boxes.</em></small></p>		
+<small><em>3) Click the sigma sign to change what type of values to be shown. Then click OK.</em></small>		
+		            </div>
+		</div>
+		
+		<div id="flashContent">
+		</div>
+		<script type="text/javascript" src="flexmonster.js"></script> 
+    <script type="text/javascript">
+			flexmonster.embedPivotComponent("", "flashContent", "75%", "600", {configUrl: "report.xml"});
+		</script>
+        <img src='http://www.flexmonster.com/icons.ashx?r=frst-p-js' style="display:none;">
           
 
 <!-- Modal -->
@@ -291,30 +312,7 @@
 </div>
 
 
-		<div id="flashContent">
-			<!-- IF SOMETHING WENT WRONG -->
-			<div style="padding: 10px; margin: 10px 0;">
-				<font color="#DD0000"><b>Something went wrong!</b></font><br/><br/>
-				If you see this message, it means you have one of the following problems: 
-				<ol>
-					<li>You did not extract files from downloaded zip archive. Unzip and copy all files to your application folder.</li>
-					<li>You do not have the Flash Player plugin installed (<a href="http://get.adobe.com/flashplayer/">download Flash Player</a>), 
-					or your browser does not support JavaScript (you should enable it)</li> <li>If you use Internet Explorer: 
-						<ul>
-							<li>You may see a warning at the top of your browser<br/><br/><img src="img/ie_restricted.png"/><br/><br/></li>
-							<li>If it happens, click on the warning and choose "Allow Blocked Content"<br/><br/><img src="img/ie_allow.png"/><br/><br/></li>
-						</ul>
-					</li>
-				</ol> 
-				If you still see this page, <a href="http://www.flexmonster.com/flash/help/index.html?file=Contents/installation.html">click here</a> for troubleshooting information.
-			</div>
-			<!-- IF SOMETHING WENT WRONG end -->
-		</div>
-		<script type="text/javascript" src="flexmonster.js"></script> 
-    <script type="text/javascript">
-			flexmonster.embedPivotComponent("", "flashContent", "100%", "600", {configUrl: "report.xml"});
-		</script>
-        <img src='http://www.flexmonster.com/icons.ashx?r=frst-p-js' style="display:none;">
+
 
 
 		  
