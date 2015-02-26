@@ -6,14 +6,14 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Spirit8 - Digital Agency One Page Template</title>
+    <title>cLIMax - For a better Philippines</title>
     <meta name="description" content="Spirit8 is a Digital agency one page template built based on bootstrap framework. This template is design by Robert Berki and coded by Jenn Pereira. It is simple, mobile responsive, perfect for portfolio and agency websites. Get this for free exclusively at ThemeForces.com">
     <meta name="keywords" content="bootstrap theme, portfolio template, digital agency, onepage, mobile responsive, spirit8, free website, free theme, themeforces themes, themeforces wordpress themes, themeforces bootstrap theme">
     <meta name="author" content="ThemeForces.com">
     
     <!-- Favicons
     ================================================== -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/mapico.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
@@ -63,14 +63,13 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="home.html" class="page-scroll">Home</a></li>
-            <li><a href="#tf-about" class="page-scroll">About</a></li>
-            <li><a href="strategy.html" class="page-scroll">Business Strategies</a></li>
-            <li><a href="scorecard.html" class="page-scroll">Scorecard & Inicators</a></li>
-            <li><a href="" class="page-scroll">Pivot Table & OLAP operation</a></li>
-            <li><a href="" class="page-scroll">BEP</a></li>
-            <li><a href="" class="page-scroll">Data Mining</a></li>
-            <li><a href="" class="page-scroll">Contact</a></li>
+            <li><a href="../index.html" class="page-scroll">Home</a></li>
+            <li><a href="../index.html" class="page-scroll">About Us</a></li>
+            <li><a href="../strategy.html" class="page-scroll">Business Strategies</a></li>
+            <li><a href="../scorecard.html" class="page-scroll">Scorecard & Indicators</a></li>
+			<li><a href="pivotolap.html" class="page-scroll" style="color:#fcac45; font-weight:bold;">Pivot Table & OLAP operation</a></li>
+            <li><a href="../bep.html" class="page-scroll">BEP</a></li>
+            <li><a href="../datamine.html" class="page-scroll">Data Mining</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -83,7 +82,7 @@
             <div class="content">
                 <h1>PIVOT & OLAP</h1>
                 <p></p>
-                <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+                <a href="#tf-works" class="fa fa-angle-down page-scroll"></a>
             </div>
         </div>
     </div>
@@ -100,13 +99,16 @@
                 <div class="clearfix"></div>
             </div>
             <div class="space"></div>
+			
+			
+			
 
             <div id="lightbox" class="row">
 
                 <div class="col-sm-6 col-md-3 col-lg-3 branding">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="#">
+                            <a href="#" data-toggle="modal" data-target="#myModal">
                                 <div class="hover-text">
                
                                     <small>Amount volunteers are willing to give knowing that there is transparency with how their donations will be used</small>
@@ -269,7 +271,53 @@
         </div>
     </div>
           
-					
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h5 class="modal-title" id="myModalLabel">Amount volunteers are willing to give knowing that there is transparency with how their donations will be used</h5>
+      </div>
+      <div class="modal-body">
+        <img src="img/1.png" class="img-responsive" alt="...">
+      </div>
+      <div class="modal-footer">
+		
+      </div>
+    </div>
+  </div>
+</div>
+
+
+		<div id="flashContent">
+			<!-- IF SOMETHING WENT WRONG -->
+			<div style="padding: 10px; margin: 10px 0;">
+				<font color="#DD0000"><b>Something went wrong!</b></font><br/><br/>
+				If you see this message, it means you have one of the following problems: 
+				<ol>
+					<li>You did not extract files from downloaded zip archive. Unzip and copy all files to your application folder.</li>
+					<li>You do not have the Flash Player plugin installed (<a href="http://get.adobe.com/flashplayer/">download Flash Player</a>), 
+					or your browser does not support JavaScript (you should enable it)</li> <li>If you use Internet Explorer: 
+						<ul>
+							<li>You may see a warning at the top of your browser<br/><br/><img src="img/ie_restricted.png"/><br/><br/></li>
+							<li>If it happens, click on the warning and choose "Allow Blocked Content"<br/><br/><img src="img/ie_allow.png"/><br/><br/></li>
+						</ul>
+					</li>
+				</ol> 
+				If you still see this page, <a href="http://www.flexmonster.com/flash/help/index.html?file=Contents/installation.html">click here</a> for troubleshooting information.
+			</div>
+			<!-- IF SOMETHING WENT WRONG end -->
+		</div>
+		<script type="text/javascript" src="flexmonster.js"></script> 
+    <script type="text/javascript">
+			flexmonster.embedPivotComponent("", "flashContent", "100%", "600", {configUrl: "report.xml"});
+		</script>
+        <img src='http://www.flexmonster.com/icons.ashx?r=frst-p-js' style="display:none;">
+
+
+		  
 					
 					
             </div>
